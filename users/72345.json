@@ -1,13 +1,11 @@
 {
 	"id": 72345,
+	"created_at": 4315433214,
+	"updated_at": 1234543,
 	"username": "francesca",
 	"email": "francesca@nannizzi.me",
 	"name": "Francesca Nannizzi",
-	"fb_id": 
-	"friend_ids": 
-		[
-			1234,
-			342
-		],
+	"fb_id": 980127347860,
+	"friend_ids": [1234, 342],
 	"polls": [1,2]
 }
