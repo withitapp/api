@@ -8,37 +8,29 @@ The agreement between client apps and the backend server.
 
     GET /friendships/{id}.json
     
-No parameter
-
 ## Invitations
+
+#### Fetch an invitation
 
     GET /invitations/{id}.json
     
-No parameter
-
 ## Memberships
 
 #### Fetch a membership
 
     GET /memberships/{id}.json
     
-No parameters
-
 ## Polls
 
 #### Fetch a poll
 
     GET /polls/{id}.json
 
-No paramters
-
 ## Users
 
 #### Fetch a user
 
     GET /users/{id}.json
-
-No parameter  
 
 #### Create a user
 
