@@ -1,0 +1,19 @@
+{
+	"id": 34153425,
+	"title": "Basketball at the park",
+	"description": "basketball at the park Tuesday 7pm",
+	"creator": "560154919",
+	"endDate": 20140501,
+	"endTime": 183000,
+	"members": [{
+		"id": "560154917",
+		"response": 1,
+		"recentResponseDate": 20140112,
+		"recentResponseTime": 153000
+	}, {
+		"id": "560154918",
+		"response": 0,
+		"recentResponseDate": null,
+		"recentResponseTime": null
+	}]
+}
