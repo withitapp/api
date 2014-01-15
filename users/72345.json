@@ -1,10 +1,13 @@
 {
-			"id": 72345,
-			"name": "Francesca Nannizzi",
-			"friends": 
-			[
-				1234,
-			  342
-			],
-			"polls": [1,2]
+	"id": 72345,
+	"username": "francesca",
+	"email": "francesca@nannizzi.me",
+	"name": "Francesca Nannizzi",
+	"fb_id": 
+	"friend_ids": 
+		[
+			1234,
+			342
+		],
+	"polls": [1,2]
 }
