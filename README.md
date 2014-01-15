@@ -1,30 +1,32 @@
 # WithIt Api Documentation
 
-### Friendships
+The agreement between client apps and the backend server.
+
+## Friendships
 
     GET /friendships/{id}.json
     
 No parameter
 
-### Invitations
+## Invitations
 
     GET /invitations/{id}.json
     
 No parameter
 
-### Memberships
+## Memberships
 
     GET /memberships/{id}.json
     
 No parameters
 
-### Polls
+## Polls
 
     GET /polls/{id}.json
 
 No paramters
 
-### Users
+## Users
 
     GET /users/{id}.json
 
