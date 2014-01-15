@@ -2,18 +2,8 @@
 	"id": 34153425,
 	"title": "Basketball at the park",
 	"description": "basketball at the park Tuesday 7pm",
-	"creator": "560154919",
-	"endDate": 20140501,
-	"endTime": 183000,
-	"members": [{
-		"id": "560154917",
-		"response": 1,
-		"recentResponseDate": 20140112,
-		"recentResponseTime": 153000
-	}, {
-		"id": "560154918",
-		"response": 0,
-		"recentResponseDate": null,
-		"recentResponseTime": null
-	}]
+	"user_id": 560154919,
+	"created_at": 1234,
+	"ends_at": 20140501,
+	"membership_ids": [234, 432, 435 ,654, 645]
 }
