@@ -34,7 +34,7 @@ Optional parameters:
 
 #### Index memberships
 
-    GET /memberhips
+    GET /memberships
 
 Optional parameters
 
