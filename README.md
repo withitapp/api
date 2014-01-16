@@ -10,7 +10,8 @@ The agreement between client apps and the backend server.
     
 Optional parameters:
 
-* user_id: `integer`
+* alpha_id: `integer`
+* beta_id: `integer`
 
 #### Fetch a friendship
 
