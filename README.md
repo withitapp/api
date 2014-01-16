@@ -52,6 +52,15 @@ Optional parameters
 #### Fetch a poll
 
     GET /polls/{id}
+    
+#### Create a poll
+
+    POST /polls
+    
+Required parameters:
+
+* title: `string`
+* user_id: `integer`
 
 ## Users
 
