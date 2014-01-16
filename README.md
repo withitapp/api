@@ -42,6 +42,15 @@ Optional parameters
 
 * user_id: `integer`
 * poll_id: `integer`
+* 
+#### Create a membership
+
+    POST /memberships
+
+Required parameters
+
+* user_id: `integer`
+* poll_id: `integer`
 
 #### Fetch a membership
 
