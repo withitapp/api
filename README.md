@@ -24,7 +24,8 @@ Optional parameters:
 
 Optional parameters:
 
-* user_id: `integer`
+* sender_id: `integer`
+* receiver_id: `integer`
 
 #### Fetch an invitation
 
@@ -39,6 +40,7 @@ Optional parameters:
 Optional parameters
 
 * user_id: `integer`
+* poll_id: `integer`
 
 #### Fetch a membership
 
