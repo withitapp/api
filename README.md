@@ -17,21 +17,6 @@ Optional parameters:
 
     GET /friendships/{id}
     
-## Invitations
-
-#### Index invitations
-
-    GET /invitations
-
-Optional parameters:
-
-* sender_id: `integer`
-* receiver_id: `integer`
-
-#### Fetch an invitation
-
-    GET /invitations/{id}
-    
 ## Memberships
 
 #### Index memberships
