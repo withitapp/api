@@ -1,13 +1,12 @@
 {
-	"id": 72345,
-	"created_at": 4315433,
-	"updated_at": 1234543,
-	"username": "francesca",
-	"email": "fracesca@nannizzi.me",
-	"first_name": "Francesca",
-	"last_name": "Nannizzi",
-	"fb_id": "980127347860",
-	"friendship_ids": [564, 766, 234, 123],
-	"invitation_ids": [891, 324, 543],
-	"membership_ids": [564, 127]
+    "id": 1,
+    "created_at": "2014-02-28T00:00:00Z",
+    "updated_at": "2014-02-28T00:00:00Z",
+    "username": "oguzbilgic",
+    "email": "fisyonet@gmail.com",
+    "first_name": "Oguz",
+    "last_name": "Bilgic",
+    "fb_id": "123943415134",
+    "fb_token": "",
+    "fb_synced_at": "0001-01-01T00:00:00Z"
 }
