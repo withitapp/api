@@ -2,71 +2,121 @@
 
 The agreement between client apps and the backend server.
 
-## Friendships
-
-#### Index friendships
-
-    GET /friendships
-    
-Optional parameters:
-
-* alpha_id: `integer`
-* beta_id: `integer`
-
-#### Fetch a friendship
-
-    GET /friendships/{id}
-    
-## Memberships
-
-#### Index memberships
-
-    GET /memberships
-
-Optional parameters
-
-* user_id: `integer`
-* poll_id: `integer`
-
-#### Create a membership
-
-    POST /memberships
-
-Required parameters
-
-* user_id: `integer`
-* poll_id: `integer`
-
-#### Fetch a membership
-
-    GET /memberships/{id}
-    
-## Polls
-
-#### Fetch a poll
-
-    GET /polls/{id}
-    
-#### Create a poll
-
-    POST /polls
-    
-Required parameters:
-
-* title: `string`
-* user_id: `integer`
-
 ## Users
 
-#### Fetch a user
+### Fetch a User
 
-    GET /users/{id}
-
-#### Create a user
-
-    POST /users
-  
+    GET /users
+    
 Required parameters:
 
-* username: `string`
-* password: `string`
+* id: `integer`
+
+Returns a user object in JSON format
+
+### Authenticate a User
+
+    POST /auth
+    
+Required parameters:
+
+* fb_id: `String`
+* fb_token: `String`
+
+Returns a user object in JSON format
+
+### Fetch Friends of a User
+
+    GET /friends
+
+Required parameters:
+
+* user_id: `int`
+
+Returns an array of user objects in JSON format
+
+### Fetch Members of a Poll
+
+    GET /members
+
+Required parameters:
+
+* poll_id: `int`
+
+Returns an array of user objects in JSON fromat
+    
+
+## Polls
+
+### Fetch All Polls
+
+    GET /polls
+    
+Returns an array of polls in JSON format
+
+### Fetch A Poll
+
+    GET /polls
+
+Required parameters:
+
+* id: `int`
+
+Returns a poll object in JSON format
+
+### Create a Poll
+
+    POST /polls
+
+Required parameters:
+
+* title: `String`
+* description: `String`
+* user_id: `int`
+* ends_at: `String` 
+
+Returns the ID of the created poll
+
+### Update a Poll
+
+    PATCH /polls
+
+Returns null
+
+Required parameters:
+
+* title: `String`
+* description: `String`
+* user_id: `int`
+* ends_at: `String`
+
+### Delete a Poll
+
+    DELETE /polls
+
+Required parameters:
+
+* id: `int`
+
+Returns null
+
+## Memberships
+
+### Create a Membership
+
+    POST /memberships
+    
+Required parameters:
+
+* user_id: `int`
+* poll_id: `int`
+* response: `String`
+
+Returns the ID of the created object.
+
+###
+
+
+
+
+
