@@ -90,7 +90,7 @@ Required parameters:
 * user_id: `int`
 * ends_at: `String`
 
-### Delete a Poll
+### Delete a Poll and its Memberships
 
     DELETE /polls
 
@@ -114,8 +114,36 @@ Required parameters:
 
 Returns the ID of the created object.
 
-###
+### Fetch all Memberships for a Poll
 
+    GET /memberships
+
+Required parameters:
+
+* poll_id: `int`
+
+Returns an array of membership objects in JSON format
+
+### Update a Membership
+
+    PATCH /memberships
+
+Required parameters:
+
+* id: `int`
+* response: `String`
+
+Returns null
+
+### Delete a Membership
+
+    DELETE /memberships
+    
+Required paramters:
+
+* id: `int`
+
+Returns null
 
 
 
